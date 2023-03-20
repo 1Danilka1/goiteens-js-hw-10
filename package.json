@@ -5,7 +5,7 @@
   "homepage": "https://1Danilka1.github.io/goiteens-js-hw-10",
   "scripts": {
     "start": "parcel src/*.html --no-cache",
-    "build": "parcel build src/*.html --public-url --no-cache /goiteens-js-hw-10/"
+    "build": "parcel build src/*.html --no-cache --public-url /goiteens-js-hw-10/"
   },
   "repository": {
     "type": "git",
