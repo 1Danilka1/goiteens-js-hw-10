@@ -2,10 +2,10 @@
   "name": "goiteens-js-hw-10",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/1Danilka1/goiteens-js-hw-10",
+  "homepage": "https://1Danilka1.github.io/goiteens-js-hw-10",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /goiteens-js-hw-10/"
   },
   "repository": {
     "type": "git",

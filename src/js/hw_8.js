@@ -4,21 +4,21 @@ const counterSpan = document.querySelector('#value');
 const positiveButton = document.querySelector(`[data-action="increment"]`);
 const negativeButton = document.querySelector(`[data-action="decrement"]`);
 
-negativeButton.addEventListener('click', onNegativeClick);
-
-positiveButton.addEventListener('click', onPositiveClick);
 
 
 const onNegativeClick = () => {
-    counterValue -= 1;
-    counterSpan.textContent = counterValue;
+  counterValue -= 1;
+  counterSpan.textContent = counterValue;
 }
 
 const onPositiveClick = () => {
-    counterValue += 1;
-    counterSpan.textContent = counterValue;
+  counterValue += 1;
+  counterSpan.textContent = counterValue;
 }
 
+negativeButton.addEventListener('click', onNegativeClick);
+
+positiveButton.addEventListener('click', onPositiveClick);
 // ============================================================ №2 ==============================================================================
 const textInput = document.querySelector('#name-input');
 const span = document.querySelector('#name-output');
