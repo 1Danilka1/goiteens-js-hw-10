@@ -41,6 +41,7 @@ const body = document.body;
 
 const onChangeColour = () => {
     spa.textContent = body.style.backgroundcolor = getRandomHexColor();
+    document.body.style.backgroundColor = getRandomHexColor();
 }
 
 button.addEventListener("click", onChangeColour)
